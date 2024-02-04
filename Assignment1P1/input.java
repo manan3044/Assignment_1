@@ -55,4 +55,15 @@ public class input {
         }
     }
 
+    public int consoleInput() {
+        Console console = System.console();
+        if (console == null) {
+            System.out.println("No console available");
+            return 0;
+        }
+        String str = console.readLine("Enter a number: ");
+
+        return Integer.parseInt(str);
+    }
+
 }
