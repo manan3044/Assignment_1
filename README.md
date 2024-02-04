@@ -2,7 +2,7 @@
 
 ## Part 1
 ### **Problem Statement**  
-Implement a menu-driven Java program (like fib or factorial) to implement these input methods in JAVA.
+Implement a menu-driven Java program to implement different input methods in JAVA.
 
 ### **Description**  
 This program shows the different input methods which are availabe in JAVA. There are multiple ways by which input can be taken from user in JAVA and this programs tends to focus on thoose various methods.
