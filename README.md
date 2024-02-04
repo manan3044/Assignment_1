@@ -19,3 +19,7 @@ In this there are 3 different classes:
 - ```Main.java```: The main class which access the functions of other 2 classes. This class contains the do-while loop which runs to generate menu to the user until the users chooses to stop the program. The different options offered to user are the different input methods that Java offers. The user can select which method they want to give input. All the different input methods are stored in input.java, all the methods returns a number to the main class upon getting input from user. Then factorial is performed on it, the factorial method is stored in the factorial.java class.
 - ```input.java```: This class has all the input methods stored in it. The input methods return an integer value to the main class.
 - ```factorial.java```: This class calculates the factorial of a number using recursion. The calculate method in the class takes an integer as input and returns an double as result.
+
+## Part 2
+### **Problem Statement**  
+Implement a simple menu driven calculator in java to implement add, sub, mul, div, sqrt, power, mean, variance. Implement a separate Calculator class to include all related function inside that class.(mean calculation : program reads numbers from the keyboard, summing them in the process until the user enters the string "end". It then stops input & displays the avg. of numbers)
